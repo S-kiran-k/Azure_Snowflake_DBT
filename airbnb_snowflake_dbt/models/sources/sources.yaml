@@ -1,0 +1,8 @@
+sources:
+  - name: staging #name of the schema this name would be used when accessing
+    database: AIRBNB  
+    schema: staging
+    tables:
+      - name: listings
+      - name: bookings
+      - name: hosts
