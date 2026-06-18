@@ -1,11 +1,11 @@
-models:
-  - name: bronze_bookings
-    config:
-      materialized: view
-  - name: bronze_listings
-    config:
-      materialized: table
-  - name: bronze_hosts
-    config:
-      materialized: table
+# models:
+#   - name: bronze_bookings
+#     config:
+#       materialized: view
+#   - name: bronze_listings
+#     config:
+#       materialized: table
+#   - name: bronze_hosts
+#     config:
+#       materialized: table
         

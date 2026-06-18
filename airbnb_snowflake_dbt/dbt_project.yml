@@ -20,5 +20,7 @@ models:
   airbnb_snowflake_dbt:
     bronze: 
       +materialized: table
-      
-   
+      +schema: bronze
+    silver:
+      +materialized: table
+      +schema: silver
